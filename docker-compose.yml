@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: myapacheimage
+  database:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: hanoch
+
