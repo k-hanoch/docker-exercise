@@ -1,0 +1,7 @@
+# Run this after copying project files to some working directory
+
+# Build httpd image with mysql client
+sudo docker build -t myapacheimage .
+
+# Build compose file and run
+sudo docker-compose up --build
